@@ -1,6 +1,4 @@
-export const BASE_URL = 'https://mrcoffee-backend.onrender.com/api';
-// AUTH
-export const loginUser = async (email, password) => {
+export const BASE_URL = 'https://cafe-management-system-2-uzne.onrender.com/api';export const loginUser = async (email, password) => {
   const res = await fetch(`${BASE_URL}/auth/login`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
