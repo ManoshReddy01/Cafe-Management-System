@@ -6,5 +6,6 @@ public final class AdminConstants {
     public static final String DEFAULT_ADMIN_PASSWORD = "manosh";
     public static final String DEFAULT_ADMIN_NAME = "Manosh";
 
-    private AdminConstants() {}
+    private AdminConstants() {
+    }
 }

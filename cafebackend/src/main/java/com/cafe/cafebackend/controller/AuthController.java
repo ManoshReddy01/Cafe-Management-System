@@ -10,10 +10,7 @@ import com.cafe.cafebackend.service.UserService;
 
 @RequestMapping("/api/auth")
 
-@CrossOrigin(origins = {
-        "http://localhost:3000",
-        "https://cafe-management-application-xmad.vercel.app"
-})
+    
 public class AuthController {
 
     @Autowired
